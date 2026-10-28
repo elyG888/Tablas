@@ -1,0 +1,64 @@
+table, td, th {
+    border: 1px solid black;
+
+}
+
+td, th {
+    padding: 5px;
+}
+
+caption {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+thead {
+    background-color: aqua; /*Color fondo */
+    color: blueviolet;
+}
+
+tbody th {
+    background-color: blueviolet;    /* Color letra */
+    font-size: 13px;
+}
+
+.tecnica {
+    background-color: aquamarine;
+
+}
+
+.transversal {
+    background-color: cadetblue;
+}
+
+.proyecto {
+    background-color: cyan;
+}
+
+.libre {
+    background-color: darkseagreen;
+}
+
+.pausa {
+    text-align: center;
+    font-style: italic;
+}
+
+.ambiente {
+    font-size: 8px;
+    background-color: gray;
+}
+
+.tfoot {
+    font-size: 10px;
+    text-align: right;
+}
+
+.tabla-contenedor {
+    overflow-x: auto;
+}
+
+.thead {
+    position: sticky;
+}
